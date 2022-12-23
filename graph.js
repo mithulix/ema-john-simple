@@ -10,7 +10,7 @@ const makeCommit = n => {
   if (n === 0) return simpleGit().push();
   const x = random.int(35,22);
   const y = random.int(24,18);
-  const DATE = moment("2020-12-5")
+  const DATE = moment("2020-5-5")
     .add(x, "days")
     .add(y, "hours")
     .subtract(25, "days")
