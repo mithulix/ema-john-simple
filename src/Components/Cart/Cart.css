@@ -1,0 +1,9 @@
+.card_purchase {
+    width: 20%; margin: 5rem 1rem 0 -6rem ; float: right;
+    padding: 1rem; background-color: #fff; height: 270px; font-weight: 500;
+    box-shadow: .3rem .3rem .3rem #ebebeb,0 .3rem .3rem #ebebeb; line-height: 1rem;
+}
+
+.order { color: black; text-align: center; padding-bottom: 10px; border-bottom: 1px solid #dddddd;}
+
+.review_order { width: 100%; font-size: 1rem;}

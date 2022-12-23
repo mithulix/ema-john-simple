@@ -1,0 +1,6 @@
+.shop_container {
+    display: flex;
+}
+.product_view{
+    width: 90%; margin-top: 4rem;
+}

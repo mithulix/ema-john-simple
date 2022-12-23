@@ -1,0 +1,27 @@
+.product {
+    display: flex;
+    width: 70%; padding: 1rem;
+    background-color: #fff; margin: 1rem 0;
+    box-shadow: .3rem .3rem .3rem #ebebeb,0 .3rem .3rem #ebebeb; 
+    margin-left: 15%;
+}
+
+h4{
+    color: #5b5bff; cursor: pointer;
+}
+.image {
+     margin-right: 2rem; 
+}
+img {
+   cursor: pointer;  width: 150px; 
+}
+.extra_info {
+    line-height: .6rem; margin-top: -.5rem;
+}
+button {
+    border: none; outline: none; padding: .6rem; font-weight: 700; color: #fff;
+    border-radius: .3rem; background-color: #ffa600; cursor: pointer;
+}
+button:hover {
+    background-color: #ffb833;
+}

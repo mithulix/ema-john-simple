@@ -1,0 +1,37 @@
+.header { text-align: center; position: fixed; width: 100%; display: inline-block;}
+
+.header .img img{ 
+    height: 50px; width: 150px; padding: .5rem; float: left;
+    margin:0 -100% 0 1rem;
+}
+
+.navbar {
+    background-color: #ffb938; line-height: 2.5rem; padding-top: .5rem;
+     height:100vh auto;
+}
+.navbar nav { margin-left: 20%;}
+
+.navbar nav a {
+    text-decoration: none; border-radius: .3rem;
+    color: white; padding: .4rem 1rem .45rem 1rem;
+    font-weight: 500;
+}
+
+.navbar nav a:hover{
+    background-color: #ffa600;
+}
+
+.navbar .search {
+    border: none; outline: none; width: 40%; padding: .6rem; font-size: 1rem;
+    margin: 1rem; border-radius: .3rem; background-color: #fffffff5;
+}
+.navbar button {
+    border: none; outline: none; padding: .6rem; font-size: 1rem; color: #ffa600;
+    border-radius: .3rem; background-color: #ffffff; cursor: pointer; margin-right: 2rem;
+}
+.navbar .search:focus {
+    background-color: #fff; 
+}
+.navbar button:hover {
+    background-color: #fff; 
+}
